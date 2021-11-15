@@ -1,0 +1,10 @@
+.ProductContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5px;
+}
+.products {
+    margin: auto;
+    vertical-align: 0%;
+}

@@ -1,0 +1,44 @@
+.search{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.search ,.favourite ,.checkbox{
+    width: 207px;
+    height: 38px;
+    margin-top: -10px;
+    padding-top: 7px;
+    vertical-align: middle;
+    border:transparent;
+    margin-right: 30px;
+    outline: none;
+    background-color: rgb(247, 246, 245);
+}
+.search>span{
+    padding-left:8px ;
+    background-color: rgb(247, 246, 245);
+    align-items: flex-start;
+    margin-top: 6px;
+}
+.search>input{
+    border:none;
+    outline: none;
+    padding-left: 2px;
+    align-items: flex-end;
+}
+.search>input :focus{
+
+    outline: none;
+}
+.favourite:hover{
+    color: red;
+}
+.Filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 538px;
+    margin : auto;
+    height: 40px;
+}

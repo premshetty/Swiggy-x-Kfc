@@ -1,0 +1,45 @@
+.shopName {
+    font-size: 20px;
+    color: whitesmoke;
+}
+.ShopDetailsContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.ShopDetails{
+  
+    margin-left: 50px;
+    color: whitesmoke;
+    text-align: start;
+}
+.Unserviceable{
+    background-color: red;
+}
+.serviceable{
+    background-color: green;
+}
+.additionalDetailsContainer{
+    margin-top: -10px;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.additionalDetails{
+    border-right: 1px solid rgb(54, 50, 50);
+    padding-right: 35px;
+}
+.additionalDetails:not(:first-child) {
+    padding: 0 35px;
+}
+.offer{
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 100%;
+    width: 298px;
+    text-align: start;
+    color: whitesmoke;
+}

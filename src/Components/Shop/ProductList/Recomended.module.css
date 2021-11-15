@@ -1,0 +1,14 @@
+
+.container{
+    margin-right:  auto;
+    margin-left: 30px;
+    width: 278px;
+    height: 372px;
+    text-align: end;
+}
+ .container>p:hover{
+    color: salmon;
+}
+.container>h4{
+    color:salmon;
+}

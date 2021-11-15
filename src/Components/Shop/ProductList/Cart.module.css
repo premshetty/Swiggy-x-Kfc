@@ -1,0 +1,10 @@
+.Cart { 
+    margin-left:  auto;
+    margin-right: 50px;
+    width: 278px;
+    height: 372px;
+}
+.Cart>img{
+    height: 212px;
+    width: 278px;
+}

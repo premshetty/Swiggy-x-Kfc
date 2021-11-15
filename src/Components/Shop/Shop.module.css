@@ -1,0 +1,24 @@
+.shopHeader{
+    background-color: rgb(15, 14, 14);
+    
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logoContainer{
+    margin-top: 60px;
+    margin-left: 50px;
+    border: 1px solid rgb(199, 194, 194);
+    width: 254px;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
